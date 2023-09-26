@@ -1,0 +1,117 @@
+.mycalc {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+input {
+  width: 80%;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+input:focus {
+  outline: none;
+  border: 1px solid rgb(75, 75, 75);
+}
+
+.all-btn {
+  display: flex;
+}
+.all-btn-numbers {
+  display: flex;
+  width: 210px;
+  flex-wrap: wrap;
+}
+.all-btn-signs {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-extra {
+  display: flex;
+}
+
+.btn-clear-equals {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.clear {
+  color: red;
+  background-color: black;
+}
+.equal {
+  color: yellow;
+  background-color: black;
+}
+
+.all-btn-numbers button {
+  background-color: white;
+  border: none;
+  margin: 10px;
+  color: red;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-btn-signs button {
+  background-color: yellow;
+  border: none;
+  margin: 10px;
+  color: gray;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.btn-extra button {
+  background-color: yellow;
+  color: gray;
+}
+.btn-clear-equals button {
+  width: 120px;
+  font-size: 30px;
+  padding: 5px;
+  margin: 10px 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.all-btn-signs button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 5px yellow;
+}
+.all-btn-numbers button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 40px 1px white;
+}
+.btn-extra button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px 5px yellow;
+}
+.clear:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.equal:hover {
+  background-color: white;
+  cursor: pointer;
+}
