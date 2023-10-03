@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'Angular-Calculator';
   toShow = '0';
   currvalue = '';
+  numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
+  signs = ['+', '-', '*', '/'];
   writetoinput(value: string) {
     if (this.currvalue == '0') {
       this.currvalue = value;
